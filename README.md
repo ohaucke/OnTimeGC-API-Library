@@ -10,7 +10,7 @@ Weitere Infos: http://blog.gadean.de/project/abschlussprojekt-fachinformatiker-a
 
 ## General
 Name: Abschlussprojekt – Fachinformatiker Anwendungsentwicklung (FIAE)  
-Description: Kapselung der auf REST basierenden „OnTime Group Calendar“ Webservice-API als .Net Library in C#  
+Description: Kapselung der auf REST basierenden „OnTime Group Calendar“ Webservice-API als .Net Library  
 Author: Oliver Haucke  
 Author URI: http://gadean.de/  
 E-Mail: ohaucke@gadean.de  
