@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="OnTimeGC_API.Client">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="OnTimeGC_API.Client.EndPoint">
+        <TypeIdentifier>
+          <NewMemberFileName>Client.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAAAEQAAAAgABAEAIEEAoAIBAQgAAAAMEACSAAABAEA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Utilities">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAABAAAAAAAAACAAAAIAAAAAAQAAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Exception.InvalidTokenException" Collapsed="true">
+    <Position X="17" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Exception.InvalidApiResponseException" Collapsed="true">
+    <Position X="17" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.AllDayEvent" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIIBAAhCEAAAEACAAAAAAAAAAgA=</HashCode>
+      <FileName>Objects\AppointmentCreate\AllDayEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.Appointment" Collapsed="true">
+    <Position X="14.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIIBAAhCEAAAEACAAAAAAAAAAgA=</HashCode>
+      <FileName>Objects\AppointmentCreate\Appointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.AppointmentCreateResult">
+    <Position X="6" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\AppointmentCreate\AppointmentCreateResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.AppointmentCreateItem">
+    <Position X="6" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAkAAAAAAACAAAAAAAAAAAAAAAAAQAAAAIAAAA=</HashCode>
+      <FileName>Objects\AppointmentCreate\AppointmentCreateResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.Meeting" Collapsed="true">
+    <Position X="14.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIIBAGxiEAAAEACAAAACACAAAgA=</HashCode>
+      <FileName>Objects\AppointmentCreate\Meeting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.CalendarsResult">
+    <Position X="6" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Calendars\CalendarsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.CalendarsItem">
+    <Position X="6" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Calendars\CalendarsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.CalendarUser">
+    <Position X="6" Y="14.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Calendars\CalendarsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.Calendar">
+    <Position X="6" Y="16.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAA4IAAAAAAAIIAAABiFAAAEACAACIAAAAAIgQ=</HashCode>
+      <FileName>Objects\Calendars\CalendarsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.FreeTimeSearchResult">
+    <Position X="11.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\FreeTimeSearch\FreeTimeSearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.FreeTimeSearchItem">
+    <Position X="11.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\FreeTimeSearch\FreeTimeSearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.GroupListResult">
+    <Position X="17" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\GroupList\GroupListResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.GroupListItem">
+    <Position X="17" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\GroupList\GroupListResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LanguageListResult">
+    <Position X="8.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\LanguageList\LanguageListResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LanguageListItem">
+    <Position X="8.75" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Objects\LanguageList\LanguageListResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LanguageTextResult">
+    <Position X="11.5" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\LanguageText\LanguageTextResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LanguageTextItem">
+    <Position X="11.5" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>Objects\LanguageText\LanguageTextResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LegendsResult">
+    <Position X="3.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Legends\LegendsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LegendsItem">
+    <Position X="3.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Objects\Legends\LegendsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.Legend">
+    <Position X="3.25" Y="9.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAARAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Objects\Legends\LegendsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LoginItem">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAQAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Login\LoginResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.LogoutItem">
+    <Position X="11.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Logout\LogoutResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.Main">
+    <Position X="14.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgBAEAQAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Objects\Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.TokenResult">
+    <Position X="6" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAgAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Objects\Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.User">
+    <Position X="10" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.RegionListResult">
+    <Position X="17" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\RegionList\RegionListResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.RegionListItem">
+    <Position X="17" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Objects\RegionList\RegionListResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.RegionTextResult">
+    <Position X="14.25" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\RegionText\RegionTextResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.RegionText">
+    <Position X="14.25" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>Objects\RegionText\RegionTextResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.UsersAllResult">
+    <Position X="3.25" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\UsersAll\UsersAllResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.UsersAllItem">
+    <Position X="3.25" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEFAAACAggEgABAIAAAQCEAgABIAAAQASJAAAAAg=</HashCode>
+      <FileName>Objects\UsersAll\UsersAllResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.UsersInfoResult">
+    <Position X="0.5" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\UsersInfo\UsersInfoResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.UsersInfoItem">
+    <Position X="0.5" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEFAAACAggEgABAIAAAQCEAgABIAAAQASJAAAAAg=</HashCode>
+      <FileName>Objects\UsersInfo\UsersInfoResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.UsersPhotoResult">
+    <Position X="14.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\UsersPhoto\UsersPhotoResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.UsersPhotoItem">
+    <Position X="14.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\UsersPhoto\UsersPhotoResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.VersionResult">
+    <Position X="8.75" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Version\VersionResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnTimeGC_API.Objects.Version">
+    <Position X="8.75" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABABCAAAAAAQAAAEAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Objects\Version\VersionResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OnTimeGC_API.AppointmentType" Collapsed="true">
+    <Position X="17" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OnTimeGC_API.UsersAllTyp" Collapsed="true">
+    <Position X="17" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OnTimeGC_API.UsersInfoTyp" Collapsed="true">
+    <Position X="17" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
